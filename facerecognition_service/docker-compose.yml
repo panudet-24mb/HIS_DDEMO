@@ -1,0 +1,10 @@
+version: "2"
+services:
+  his-facerecognition-demo:
+    container_name: his-facerecognition-demo
+    build: ./his-facerecognition-demo
+    volumes:
+      - './his-facerecognition-demo/server:/app'
+    restart: always
+    ports:
+      - "9991:80"  

@@ -1,0 +1,14 @@
+fastapi
+bson
+uvicorn
+pydantic
+pydantic[email]
+nameko
+loguru
+numpy
+python-multipart
+aiofiles
+passlib
+pyjwt
+motor
+fastapi-utils
